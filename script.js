@@ -1,7 +1,7 @@
 function generateImage() {
   const query = document.querySelector('.searchInput').value;
-  const clientId = 'tiPGSSsgw9JBOq3x-dxdjpUKpApceJ7xqjHcua9bGGY';
-  const url = `https://api.unsplash.com/photos/random?query=${query}&count=4&client_id=${clientId}`;
+  const clientId = 'Your client_Id';
+  const url = `Your API_URL`;
 
   fetch(url)
   .then(response => response.json())
